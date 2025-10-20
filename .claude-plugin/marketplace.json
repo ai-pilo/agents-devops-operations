@@ -1,34 +1,36 @@
 {
+  "name": "agents-devops-operations",
+  "owner": "ai-pilo",
   "plugins": [
     {
       "name": "observability-monitoring",
       "version": "1.2.2",
-      "path": "plugins/observability-monitoring"
+      "source": "plugins/observability-monitoring"
     },
     {
       "name": "incident-response",
       "version": "1.2.2",
-      "path": "plugins/incident-response"
+      "source": "plugins/incident-response"
     },
     {
       "name": "distributed-debugging",
       "version": "1.2.2",
-      "path": "plugins/distributed-debugging"
+      "source": "plugins/distributed-debugging"
     },
     {
       "name": "cicd-automation",
       "version": "1.2.2",
-      "path": "plugins/cicd-automation"
+      "source": "plugins/cicd-automation"
     },
     {
       "name": "application-performance",
       "version": "1.2.2",
-      "path": "plugins/application-performance"
+      "source": "plugins/application-performance"
     },
     {
       "name": "performance-testing-review",
       "version": "1.2.2",
-      "path": "plugins/performance-testing-review"
+      "source": "plugins/performance-testing-review"
     }
   ]
 }
